@@ -1,5 +1,22 @@
-{
-    "require": {
-        "phpmailer/phpmailer": "^6.0"
-    }
-}
+    <div id="outerdiv" style="position:fixed;top:0;left:0;background:rgba(0,0,0,0.7);z-index:2;width:100%;height:100%;display:none;"><div id="innerdiv" style="position:absolute;"><img id="bigimg" style="border:5px solid #fff;" src="" /></div></div>  
+              
+    <ul id="imglist">  
+        <li><img class="pimg" src="img/1.jpg" width="500px" /></li>  
+        <li><img class="pimg" src="img/2.jpg" width="500px" /></li>  
+        <li><img class="pimg" src="img/3.jpg" width="500px" /></li>  
+        <li><img class="pimg" src="img/4.jpg" width="500px" /></li>  
+        <li><img class="pimg" src="img/5.jpg" width="500px" /></li>  
+        <li><img class="pimg" src="img/6.jpg" width="500px" /></li>  
+        <li><img class="pimg" src="img/7.jpg" width="500px" /></li>  
+        <li><img class="pimg" src="img/8.jpg" width="500px" /></li>  
+        <li><img class="pimg" src="img/9.jpg" width="500px" /></li>  
+        <li><img class="pimg" src="img/10.jpg" width="500px" /></li>  
+    </ul>  
+    <script>  
+        $(function(){  
+            $(".pimg").click(function(){  
+                var _this = $(this);//将当前的pimg元素作为_this传入函数  
+                imgShow("#outerdiv", "#innerdiv", "#bigimg", _this);  
+            });  
+        });  
+    </script>  
