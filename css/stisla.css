@@ -2,6 +2,9 @@
 html, body {
 	height: 100% !important;
 }
+body p {
+}
+
 body {
 }
 
@@ -306,6 +309,7 @@ body {
 	-ms-border-radius: 30px;
 	padding-left: 30px;
 	padding-right: 30px;
+	font-size: 14px;
 }
 
 .hero .cta .btn.btn-link {
@@ -438,6 +442,7 @@ section.callout h3 {
 	line-height: 28px;
 	font-size: 16px;
 	margin-bottom: 0;
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
 }
 
 .list-item .desc .more {
@@ -596,6 +601,7 @@ article.card .card-more i {
 
 .projects-details .projects-cta {
 	margin-top: 40px;
+	color: #999;
 }
 
 .projects-details .projects-cta .btn-primary {
@@ -614,7 +620,8 @@ article.card .card-more i {
 
 .projects-details .projects-cta .btn-primary:hover {
 	background-color: transparent;
-	color: #fff;
+	color: #999;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
 .projects-details .projects-cta .btn-link {
